@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+.nav-item .nav-link:hover {
+  font-weight: 600;
+  color: #068ddb !important;
+}
+.nav-item .nav-link:active {
+  color: #42bbff;
+}
+#home:active {
+  color: #068ddb;
+}
+.home {
+  padding-top: 6rem;
+}
+.btn {
+  border-radius: 15px;
+}
+.btnlogin:focus,
+.btnsignin:focus {
+  box-shadow: none;
+}
+.btnlogin:hover {
+  color: #42bbff !important;
+  background-color: white;
+  border: 1px solid #41bbff;
+}
+.btnsignin:hover {
+  color: white !important;
+  background-color: #42bbff;
+  border: 1px solid #42bbff;
+}
+.btn-bljr {
+  border-radius: 15px !important;
+}
+.gambar {
+  width: 100%;
+}
+.col-2 img {
+  width: 45px;
+}
+.logo-footer {
+  width: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer .col-4 h4 {
+  color: #42bbff;
+}
+
+@media screen and (max-width: 750px) {
+  .gambar {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .bawah {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

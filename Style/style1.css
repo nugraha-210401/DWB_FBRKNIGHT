@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+.nav-item .nav-link:hover {
+  font-weight: 600;
+  color: #068ddb !important;
+}
+
+.nav-item .nav-link:active {
+  text-decoration: underline;
+  color: #42bbff;
+}
+
+.home {
+  margin-top: 6rem;
+}
+
+.logo2 {
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+.progress {
+  width: 200px;
+  height: 20px;
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: 0px 1px 2px 0px rgb(0, 0, 0, 0.1);
+}
+.card-title:hover {
+  text-decoration: underline;
+  color: #42bbff;
+}
+.card-img-top {
+  border-radius: 20px 20px 0px 0px;
+}
+.btn-fill {
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
+}
+.btn-program {
+  border-radius: 20px;
+  margin: 15px auto 0px !important;
+  padding: 5px 20px;
+  width: 100%;
+  /* font-size: 13px; */
+  color: white;
+}
+.btn-allprogram {
+  border-radius: 20px;
+  /* font-size: 13px; */
+  margin: 15px auto 0px !important;
+  padding: 5px 20px;
+  width: 100%;
+  color: white;
+}
+.btn-stroke {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-right: 5px !important;
+  padding: 5px 20px;
+  color: #42bbff;
+  font-weight: 400;
+  border: 1px solid #42bbff;
+}
+.btn-fill:hover {
+  background-color: white;
+  color: #42bbff;
+  font-weight: 400;
+  border: 1px solid #42bbff;
+}
+.btn-stroke:hover {
+  background-color: #42bbff;
+  color: white;
+  font-weight: 400;
+}
+.btn-program:hover {
+  background-color: white;
+  color: #42bbff;
+  font-weight: 400;
+  border: 1px solid #42bbff;
+  padding: 5px 25px;
+  transition: 0.3s;
+}
+.btn-allprogram:hover {
+  background-color: white;
+  color: #42bbff;
+  border: 1px solid #42bbff;
+  font-weight: 400;
+}
+td {
+  padding: 15px !important;
+}
+#kelas {
+  background-color: #ffffff;
+  width: 85%;
+  margin: 0rem auto 3rem;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#kelaslulus {
+  background-color: #ffffff;
+  width: 85%;
+  margin: 0rem auto 3rem;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#program {
+  background-color: #ffffff;
+  width: 85%;
+  margin: 0rem auto 3rem;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.col-2 img {
+  width: 45px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer .col-4 h4 {
+  color: #42bbff;
+}
+
+@media screen and (min-width: 250px) {
+  .btn-stroke {
+    margin-bottom: 5px !important;
+  }
+  .bawah {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

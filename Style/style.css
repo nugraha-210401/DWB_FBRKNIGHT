@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+.nav-item .nav-link:hover {
+  font-weight: 600;
+  color: #068ddb !important;
+}
+.nav-item .nav-link:active {
+  color: #42bbff;
+}
+#home:active {
+  text-decoration: underline;
+  color: #068ddb;
+}
+.home {
+  padding: 6rem;
+}
+.jumbotron {
+  padding-top: 7rem;
+}
+.btn {
+  border-radius: 15px;
+}
+.btnlogin:focus,
+.btnsignin:focus {
+  box-shadow: none;
+}
+.btnlogin:hover {
+  color: #42bbff !important;
+  background-color: white;
+  border: 1px solid #41bbff;
+}
+.btnsignin:hover {
+  color: white !important;
+  background-color: #42bbff;
+  border: 1px solid #42bbff;
+}
+#program {
+  background-color: #42bbff;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+.btn-atas {
+  margin-top: 1rem;
+  border-radius: 20px;
+  background-color: #27a9f2;
+  color: white;
+}
+.btn-atas:hover {
+  padding: 10px 20px;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  background-color: white;
+  color: #42bbff;
+  border: 2px solid #42bbff;
+}
+.btn-program {
+  border-radius: 20px;
+  margin: 15px auto 0px !important;
+  padding: 5px 20px;
+  width: 100%;
+  /* font-size: 13px; */
+  color: white;
+}
+.btn-program:hover {
+  background-color: white;
+  color: #42bbff;
+  font-weight: 400;
+  border: 1px solid #42bbff;
+  padding: 5px 25px;
+  transition: 0.3s;
+}
+.judul:hover {
+  text-decoration: underline;
+  color: #42bbff;
+}
+.thumbnail {
+  border-radius: 20px 20px 0px 0px;
+}
+#other {
+  background-color: #42bbff;
+}
+.btn-other {
+  padding: 10rem 0px !important;
+}
+.btn-other1 {
+  color: #42bbff;
+}
+.btn-other1:hover {
+  background-color: #42bbff;
+  color: white;
+  font-weight: 400;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+.col-2 img {
+  width: 45px;
+}
+.logo-footer {
+  width: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer .col-4 h4 {
+  color: #42bbff;
+}
+@media screen and (max-width: 550px) {
+  .gambar {
+    display: none;
+  }
+  .atas {
+    margin-top: -5rem !important;
+    width: 100% !important;
+  }
+  .btn-atas {
+    padding: 10px;
+  }
+  .btn-other {
+    padding: 1rem;
+  }
+  .bawah {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
